@@ -1,5 +1,5 @@
 # Magento1_Shipping
-This is Magento 1.x module for adding shipping method (the user can choose this sipping method during checkout).<br />
+This is Magento 1.x module for adding shipping method (the user can choose this shipping method during checkout).<br />
 <br />
 After installing this module in the admin panel, the new menu item will appear in the System -> Configuration -> Shipping Methods. Its name is "Medvslav Shipping Module".
 You can enter the configuration of this shipping module here.<br />
