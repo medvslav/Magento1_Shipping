@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Medvslav_Shipping extension
+ * 
+ * NOTICE OF LICENSE
+ * 
+ * This source file is subject to the MIT License
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/mit-license.php
+ * 
+ * @category       Medvslav
+ * @package        Medvslav_Shipping
+ * @copyright      Copyright (c) 2016
+ * @license        http://opensource.org/licenses/mit-license.php MIT License
+ */
+-->
+<config>
+    <modules>
+        <Medvslav_Shipping>
+            <version>1.0.0</version>
+        </Medvslav_Shipping>
+    </modules>
+    <global>  
+        <helpers>
+            <medvslav_shipping>
+                <class>Medvslav_Shipping_Helper</class>
+            </medvslav_shipping>
+        </helpers> 
+        <blocks>
+            <medvslav_shipping>
+                <class>Medvslav_Shipping_Block</class>
+            </medvslav_shipping>
+        </blocks>         
+        <models>
+            <medvslav_shipping>
+                <class>Medvslav_Shipping_Model</class>
+            </medvslav_shipping>
+        </models>
+    </global> 
+    <default>
+        <carriers>
+            <medvslav_shipping>
+                <active>1</active>
+                <model>medvslav_shipping/shippingmethod</model>
+                <order_status>pending</order_status>
+                <title>Medvslav ShippingMethod</title>
+                <name>My Shipping</name>
+                <price>10.00</price>
+                <specificerrmsg>This shipping method is currently unavailable.</specificerrmsg>
+            </medvslav_shipping>
+        </carriers>
+    </default>
+</config>
