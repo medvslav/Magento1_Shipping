@@ -16,3 +16,4 @@ The form has following fields:<br />
 After installing this module you have to activate this shipping method in the configuration.<br />
 <br />
 You can change the price of this shipping method in the Admin panel -> System -> Configuration -> Shipping Methods -> Medvslav Shipping Module -> Prise field.<br />
+#
